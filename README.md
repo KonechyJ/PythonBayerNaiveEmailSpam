@@ -10,5 +10,5 @@ To run, Must install Opencv
 to check it has installed correctly run
 
 -python
->>>import cv2
->>>print(cv2.__version__)
+-import cv2
+-print(cv2.__version__)
