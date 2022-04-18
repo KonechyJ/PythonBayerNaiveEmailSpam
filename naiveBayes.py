@@ -36,13 +36,25 @@ class naiveBayes():
 
 
 if __name__ == '__main__':
-    X = NP.loadtxt('test_data/data.txt', delimiter=',')
-    Y = NP.loadtxt('test_data/targets.txt')-1
+   # X = NP.loadtxt('test_data/data.txt', delimiter=',')
+   # Y = NP.loadtxt('test_data/targets.txt')-1
 
+
+    X = NP.load("data/X.npy")
+    Y = NP.load("data/Y.npy")
     print(X.shape)
     print(Y.shape)
+    print("The percent of accuracy in detecting spam emails is: ")
     NB = naiveBayes(X, Y)
     NB.fit(X, Y) #training the program
     y_Predict = NB.predict(X) # predicting the outcomes
 
     print(sum(y_Predict == Y)/X.shape[0])
+    print("The percent of spam emails in this file is: ")
+    print(sum(Y)/Y.shape[0])
+
+    print("preview an email: ")
+    print(y_Predict)
+    #print(data.iloc[2,0])
+
+
