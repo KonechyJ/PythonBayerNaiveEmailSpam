@@ -1,7 +1,7 @@
-Naive bayes Email Spam detection.
+**Naive bayes Email Spam detection.**
 
-This project is an example of using a Naive Bayes algortihm to train a program to detect
-and filter out spam emails.
+**This project is an example of using a Naive Bayes algortihm to train a program to detect
+and filter out spam emails.**
 
 The various files in the folder include:
 
