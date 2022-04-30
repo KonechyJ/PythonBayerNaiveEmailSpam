@@ -42,7 +42,10 @@ if __name__ == '__main__':
 
     X = NP.load("data/X.npy")
     Y = NP.load("data/Y.npy")
+    print("Here lets print the basic data that is present from the x.npy and y.npy files.")
+    print("First from X.shape we have ~ 5728 training examples or points and ~12,000 features")
     print(X.shape)
+    print("First from Y.shape we have ~ 5728 training points ")
     print(Y.shape)
     print("The percent of accuracy in detecting spam emails is: ")
     NB = naiveBayes(X, Y)
