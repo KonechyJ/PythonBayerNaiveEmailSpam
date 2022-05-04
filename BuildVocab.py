@@ -25,9 +25,3 @@ if __name__ == '__main__':
     file = open("vocabulary.txt", "w")
     file.write(str(vocabulary))
     file.close()
-
-
-
-
-
-

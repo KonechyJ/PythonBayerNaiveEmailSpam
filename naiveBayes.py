@@ -36,8 +36,8 @@ class naiveBayes():
 
 
 if __name__ == '__main__':
-   # X = NP.loadtxt('test_data/data.txt', delimiter=',')
-   # Y = NP.loadtxt('test_data/targets.txt')-1
+    # X = NP.loadtxt('test_data/data.txt', delimiter=',')
+    # Y = NP.loadtxt('test_data/targets.txt')-1
 
 
     X = NP.load("data/X.npy")
@@ -59,5 +59,3 @@ if __name__ == '__main__':
     print("preview an email: ")
     print(y_Predict)
     #print(data.iloc[2,0])
-
-
