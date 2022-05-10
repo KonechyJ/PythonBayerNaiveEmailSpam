@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import pandas as PD
 import nltk
 from nltk.corpus import words
