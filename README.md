@@ -4,8 +4,8 @@
 This project uses the [Naive Bayes Algorithm](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) to train a program to detect and filter out spam emails.
 
 ## Software Description
-- Our program is written in the [Python Programming Language](https://en.wikipedia.org/wiki/Python_(programming_language).
-- Additionally, we used the the following libraries:
+- Our program is written in the [Python Programming Language](https://en.wikipedia.org/wiki/Python_(programming_language)).
+- Additionally, we used the the following libraries in our implementation:
     * [NLTK](https://pypi.org/project/nltk/)
     * [NumPy](https://pypi.org/project/numpy/)
     * [Pandas](https://pypi.org/project/pandas/)
