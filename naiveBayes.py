@@ -51,7 +51,7 @@ if __name__ == '__main__':
     print(Y.shape)
     print("The percent of accuracy in detecting spam emails is: ")
     NB = naiveBayes(X, Y)
-    NB.fit(X, Y) #training the program
+    NB.fit(X, Y) # training the program
     y_Predict = NB.predict(X) # predicting the outcomes
 
     print(sum(y_Predict == Y)/X.shape[0])
@@ -60,4 +60,4 @@ if __name__ == '__main__':
 
     print("preview an email: ")
     print(y_Predict)
-    #print(data.iloc[2,0])
+    # print(data.iloc[2,0])
