@@ -1,7 +1,13 @@
 # Naive Bayes Email Spam Detection
 
 ## Abstract
-This project is an example of using a [Naive Bayes Algorithm](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) to train a program to detect and filter out spam emails.
+This project uses the [Naive Bayes Algorithm](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) to train a program to detect and filter out spam emails.
+
+## Software Description
+Our program is written in the [Python Programming Language](https://en.wikipedia.org/wiki/Python_(programming_language). Additionally, we used the the following libraries: _[NLTK]_(https://pypi.org/project/nltk/), _[NumPy]_(https://pypi.org/project/numpy/), _[Pandas]_(https://pypi.org/project/pandas/), _[MatPlotLib]_(https://pypi.org/project/matplotlib/), _[Flask]_(https://pypi.org/project/Flask/).
+    - Describe the components of the software.
+    - Include Diagram illustrating the components and the input/output relationship between them.
+
 
 ## Files and Directories
 * `LICENSE` - allows other developers to freely use, change, and distribute this software.
