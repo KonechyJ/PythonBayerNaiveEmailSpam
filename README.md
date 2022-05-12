@@ -4,11 +4,19 @@
 This project is an example of using a [Naive Bayes Algorithm](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) to train a program to detect and filter out spam emails.
 
 ## Files and Directories
-* `data/` - holds the emails files and output data 
+* `LICENSE` - allows other developers to freely use, change, and distribute this software.
+* `README.md` - contains all information for knowledge and useability.
+* `data/emails.csv` - holds the list of emails messages.
+* `data/output.ipynb` - jupyter notebook containing the results of the program.
+* `test_data/data.txt` - TODO
+* `test_data/target.txt` - TODO
+* `vocabulary.txt` - TODO
+* `requirements.txt` - contains the necessary python packages to run the program an environment.
 * `BuildVocab.py` - builds a list of all the words in the emails that are words.
+* `Flask.py` -  TODO
 * `GenerateXYDate.py` - the program to generate the data for the _Naive Bayes Algorithm_ to interpret.
-* `naiveBayes.py` - Our main file runs the spam filter with the outputted data.
-* `main.py` - TBD.
+* `naiveBayes.py` - our main file runs the spam filter with the outputted data.
+* `main.py` - TODO
 
 ## How to Run
 1. Either [download](https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv) the test file `emails.csv` in the data folder or similarly create your own.

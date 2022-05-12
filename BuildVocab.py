@@ -20,7 +20,7 @@ def build_vocab(current_email):
 if __name__ == '__main__':
     for i in range(data.shape[0]):
         current_email = data.iloc[i, :][0].split()
-        print(f'Currennt email is {i}/{data.shape[0]} and the /length of the vocab in {len(vocabulary)}')
+        print(f'Current email is {i}/{data.shape[0]} and the /length of the vocab in {len(vocabulary)}')
 
         build_vocab(current_email)
 
