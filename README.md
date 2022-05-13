@@ -37,3 +37,6 @@ This project uses the [Naive Bayes Algorithm](https://en.wikipedia.org/wiki/Naiv
     - This can be run after after feeding the _vocabulary.txt_ and spam email file as input onto _GenerateXYData.py_.
 4. Two data files, `X.npy` and `Y.npy`, should have been created in the **data/** folder or any predefined destination directory.
 5. Finally, you can run the `naiveBayes.py` file using **./naiveBayes.py** and watch the program compute the number of spam emails in the folder.
+
+## Group Members
+Danny Diep, Jason Duong, Joshua Konechy
