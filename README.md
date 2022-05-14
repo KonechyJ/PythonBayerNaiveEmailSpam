@@ -9,7 +9,7 @@ This project uses the [Naive Bayes Algorithm](https://en.wikipedia.org/wiki/Naiv
     * [NLTK](https://pypi.org/project/nltk/) - natural language toolkit library used to extract all English words from its database.
     * [NumPy](https://pypi.org/project/numpy/) - Python library used to access sizable multi-dimensional arrays and matrices and high-end mathematical functions.
     * [Pandas](https://pypi.org/project/pandas/) - Python library used for data manipulation and analysis.
-    * [MatPlotLib](https://pypi.org/project/matplotlib/) - TODO
+    * [MatPlotLib](https://pypi.org/project/matplotlib/) - Python library used for data visualization.
     * [Flask](https://pypi.org/project/Flask/) - python framework allowing Python to create and host local websites and web-based applications.
 
 ## Files and Directories
