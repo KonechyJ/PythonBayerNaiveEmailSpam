@@ -6,11 +6,11 @@ This project uses the [Naive Bayes Algorithm](https://en.wikipedia.org/wiki/Naiv
 ## Software Description
 - Our program is written in the [Python Programming Language](https://en.wikipedia.org/wiki/Python_(programming_language)).
 - Additionally, we used the following libraries in our implementation:
-    * [NLTK](https://pypi.org/project/nltk/)
-    * [NumPy](https://pypi.org/project/numpy/)
-    * [Pandas](https://pypi.org/project/pandas/)
-    * [MatPlotLib](https://pypi.org/project/matplotlib/)
-    * [Flask](https://pypi.org/project/Flask/)
+    * [NLTK](https://pypi.org/project/nltk/) - natural language toolkit library used to extract all English words from its database.
+    * [NumPy](https://pypi.org/project/numpy/) - Python library used to access sizable multi-dimensional arrays and matrices and high-end mathematical functions.
+    * [Pandas](https://pypi.org/project/pandas/) - Python library used for data manipulation and analysis.
+    * [MatPlotLib](https://pypi.org/project/matplotlib/) - TODO
+    * [Flask](https://pypi.org/project/Flask/) - python framework allowing Python to create and host local websites and web-based applications.
 
 ## Files and Directories
 * `LICENSE` - allows other developers to freely use, change, and distribute this software.
