@@ -43,4 +43,4 @@ if __name__ == '__main__':
         print("...")
         print("Now we will Interpret the X and Y Data using Bayes Naive")
         exec(open("naiveBayes.py").read())
-        yourAnswer = input("Would you like to run the program again? y/n: "
+        yourAnswer = input("Would you like to run the program again? y/n: ")
