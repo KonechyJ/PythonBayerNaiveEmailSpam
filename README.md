@@ -32,7 +32,7 @@ This project uses the [Naive Bayes Algorithm](https://en.wikipedia.org/wiki/Naiv
 
 ## How to Run
 1. Either [download](https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv) the test file `emails.csv` in the data folder or similarly create your own.
-2. Navigate to the `main.py` file in the project folder and type the command**./main** to run the whole program as intended. (or whichever command allows you to run the main.py file)
+2. Navigate to the `main.py` file in the project folder and type the command **./main** to run the whole program as intended. (or whichever command allows you to run the main.py file)
 
 Or alternatively
 
