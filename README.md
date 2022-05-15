@@ -27,12 +27,17 @@ This project uses the [Naive Bayes Algorithm](https://en.wikipedia.org/wiki/Naiv
 * `naiveBayes.py` - runs the spam filter with the outputted data.
 * `main.py` - the main file that runs the user interface coordinates all the other file functions in conjunction with the user's commands.
 
+## Setup
+Select one of the following:
+1. [Clone/Download](https://github.com/KonechyJ/PythonBayerNaiveEmailSpam) the repository from GitHub.
+2. Use the pre-downloaded software under the `code/` folder.
+
 ## How to Run
 1. Either download the test file `emails.csv` in the data folder, from this [website](https://www.kaggle.com/datasets/balaka18/email-spam-classification-dataset-csv) or similarly create your own.
 2. Navigate to the `main.py` file in the project folder and type the command **./main.py** to run the whole program as intended. (or whichever command allows you to run the main.py file)
 
 ---
-Alternatively
+Alternatively,
 
 2. In `BuildVocab.py`, import the proper file and run **./buildVocab** to create/update the vocabulary.txt in the program folder.
 4. After `vocabulary.txt` is created, run **./GenerateXYData**.
